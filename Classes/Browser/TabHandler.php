@@ -95,7 +95,7 @@ class TabHandler implements TabHandlerInterface {
 			$partOffset = 1;
 
 			if (count($parts) === 4) {
-				$info['act'] = $parts[1];
+				$info['act'] = $parts[2];
 				$tabHandlerFound = TRUE;
 			} elseif (count($parts) === 3) {
 
